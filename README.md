@@ -7,7 +7,7 @@ Tests the connection properties (url, username, password). Returns database's re
 ```yaml
 steps:
 - uses: actions/checkout@v3
-- uses: liquibase-github-actions/connect@v4.25.1
+- uses: liquibase-github-actions/connect@v4.26.0
   with:
     # The JDBC database connection URL
     # string
@@ -56,7 +56,7 @@ The liquibase connect action accepts all valid liquibase global options as optio
 ```yaml
 steps:
   - uses: actions/checkout@v3
-  - uses: liquibase-github-actions/connect@v4.25.1
+  - uses: liquibase-github-actions/connect@v4.26.0
     with:
       url: ""
       headless: true
