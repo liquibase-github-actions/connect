@@ -1,8 +1,7 @@
 # Liquibase Connect Action
 Official GitHub Action to run Liquibase Connect in your GitHub Action Workflow. For more information on how connect works visit the [Official Liquibase Documentation](https://docs.liquibase.com/commands/home.html).
 ## Connect
-[PRO]
-Tests the connection properties (url, username, password). Returns database's response, if any, with success or failure.
+[PRO] Tests the connection properties (url, username, password). Returns database's response, if any, with success or failure.
 ## Usage
 ```yaml
 steps:
