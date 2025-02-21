@@ -6,7 +6,7 @@ Official GitHub Action to run Liquibase Connect in your GitHub Action Workflow. 
 ```yaml
 steps:
 - uses: actions/checkout@v3
-- uses: liquibase-github-actions/connect@v4.31.0
+- uses: liquibase-github-actions/connect@v4.31.1
   with:
     # The JDBC database connection URL
     # string
@@ -55,7 +55,7 @@ The liquibase connect action accepts all valid liquibase global options as optio
 ```yaml
 steps:
   - uses: actions/checkout@v3
-  - uses: liquibase-github-actions/connect@v4.31.0
+  - uses: liquibase-github-actions/connect@v4.31.1
     with:
       url: ""
       headless: true
